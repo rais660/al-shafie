@@ -43,7 +43,7 @@ const dataLanguage = [
   'French',
 ];
 
-const HomeScreen = props => {
+const HomeScreen = () => {
   const [soundAlert, setSoundAlert] = useState(false);
   const [silentMode, setSilentMode] = useState(false);
   const [isVisibleModel, setVisibleModel] = useState(false);
